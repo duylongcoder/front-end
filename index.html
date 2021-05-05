@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet/less" type="text/css" href="assets/less/style.less">
+	<script src="assets/js/less.js" type="text/javascript"></script>
+	<script src="https://kit.fontawesome.com/62ee657f1a.js" crossorigin="anonymous"></script>
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo"><img src="assets/images/bonfire.png"></a>
+		<ul class="nav">
+			<li>
+				<div class="cart"> <!-- cart -->
+					<a href="#" class="cart">
+					 	<img src="assets/images/cart.png">
+					 	<span class="badge">3</span>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="menu"> <!-- menu -->
+					<div id="mySidenav" class="sidenav">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<a href="#home">Home</a>
+						<a href="#product">Featured Product</a>
+						<a href="#items">Featured Items</a>
+						<a href="#blogs">Blogs</a>
+					</div>
+
+					<div id="main">
+						<span style="font-size:24px;cursor:pointer" onclick="openNav()">&#9776;</span>
+					</div>
+
+				</div>
+			</li>
+		</ul>
+	</header>
+	<div class="banner" id="home">
+		<!-- blank div -->
+		<div class="blank">
+		</div>
+		<!-- box content -->
+		<div class="contentBx">
+			<h4>Spring 2017</h4>
+			<h3>IT'S YOUR SHINE TIME</h3>
+			<a href="#" class="btn">discover now</a>
+		</div>
+		<!-- box social -->
+		<div class="socialBx">
+			<ul class="social">
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Instagram</a></li>
+				<li><a href="#">Youtube</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- box service -->
+	<div class="serviceBx">
+		<div class="service">
+			<h4>FREE SHIPPING</h4>
+			<h5>All order over $300</h5>
+		</div>
+		<div class="service">
+			<h4>SUPPORT CUSTOMER</h4>
+			<h5>Support 24/7</h5>
+		</div>
+		<div class="service">
+			<h4>SECURE PAYMENT</h4>
+			<h5>Support 24/7</h5>
+		</div>
+	</div>
+	<!-- page Main -->
+	<div class="page-main">
+		<div class="slogan">
+			<p>It started with a simple idea: Create quality, well-designed products that I wanted myself.</p>
+		</div>
+		<!-- Phẩn Featured product -->
+		<div class="featured-product" id="product">
+			<div class="row">
+				<div class="col3" id="item1">
+					<img src="assets/images/gold-leaf-ring.png">
+					<h5>Gold Leaf Ring</h5>
+					<p>$179.00</p>
+				</div>
+				<div class="col6" id="item2">
+					<div class="contentBx">
+						<p id="1">Sale up to</p>
+						<p id="2">70%</p>
+						<p id="3">Select Gold Clearance</p>
+						<p id="4">SHOP NOW</p>
+					</div>
+				</div>
+				<div class="col3" id="item3">
+					<div class="contentBx">
+						<p>NEW COLLECTION</p>
+						<p>Leaf Ring</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col3" id="item4">
+			    	<img src="assets/images/advertisment.png">
+				</div>
+				<div class="col3" id="item5">
+					<img src="assets/images/rose-gold-necklaces.png">
+					<h5>Rose Gold Necklaces</h5>
+					<p>$179.00</p>
+				</div>
+				<div class="col6" id="item6">
+					<img src="assets/images/ring.png" alt="">
+					<div class="contentBx">
+						<p>Princess Ring Rose Gold</p>
+						<p>Rose gold plated over brass<br>
+						* One size</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Phẩn Featured items -->
+		<div class="featured-items" id="items">
+			<div class="title">
+				<h3>Featured items</h3>
+				<a href="#">view more <i class="fas fa-plus-circle"></i></a>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="assets/images/item1.png">
+					<h5>Kubusbowls Small</h5>
+					<p>$179.00</p>
+				</div>
+				<div class="col">
+					<img src="assets/images/item2.png">
+					<h5>Divine Footstool</h5>
+					<p>$179.00</p>
+				</div>
+				<div class="col">
+					<img src="assets/images/item3.png">
+					<h5>Cache Pedant Lamp</h5>
+					<p>$179.00</p>
+				</div>
+				<div class="col">
+					<img src="assets/images/item4.png">
+					<h5>RIO Chair</h5>
+					<p>$179.00</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="assets/images/item5.png">
+					<h5>Cache Pedant Lamp</h5>
+					<p>$179.00</p>
+				</div>
+				<div class="col">
+					<img src="assets/images/item6.png">
+					<h5>Prismatic table</h5>
+					<p>$179.00</p>
+				</div>
+				<div class="col">
+					<img src="assets/images/item7.png">
+					<h5>Cobra Thermo Cup</h5>
+					<p>$179.00</p>
+				</div>
+				<div class="col">
+					<img src="assets/images/item8.png">
+					<h5>Montana Collection</h5>
+					<p>$179.00</p>
+				</div>
+			</div>
+		</div>
+	</div>
+			<!-- Phần Blog -->
+		<div class="blog" id="blogs">
+		<h2>Blog update</h2>
+		<div class="blogBx">
+			<div class="blog-site">
+				<img src="assets/images/blog1.png">
+				<div class="heading">
+					<div class="time">JULY 14TH, 2016</div>
+					<div class="content">8 Things I've Learned from 8 Years of Bonfire</div>
+					<div class="view"><i class="far fa-eye"></i> 941 views</div>
+					<div class="share"><i class="fas fa-share-alt"></i> 27 likes</div>
+				</div>
+			</div>
+			<div class="blog-site">
+				<img src="assets/images/blog2.png">
+				<div class="heading">
+					<div class="time">JULY 14TH, 2016</div>
+					<div class="content">How I Stay Inspired and Come Up with New Ideas</div>
+					<div class="view"><i class="far fa-eye"></i> 941 views</div>
+					<div class="share"><i class="fas fa-share-alt"></i> 27 likes</div>
+				</div>
+			</div>
+			<div class="blog-site">
+				<img src="assets/images/blog3.png">
+				<div class="heading">
+					<div class="time">JULY 14TH, 2016</div>
+					<div class="content">Wait, there's a human on the other end?</div>
+					<div class="view"><i class="far fa-eye"></i> 941 views</div>
+					<div class="share"><i class="fas fa-share-alt"></i> 27 likes</div>
+				</div>
+			</div>
+		</div>
+		<div class="btn">
+			<button>Go to Blog</button>
+		</div>
+	</div>
+	<div class="brand">
+		<img src="assets/images/brand-rolex.png">
+		<img src="assets/images/brand-elle.png">
+		<img src="assets/images/brand-diamond.png">
+		<img src="assets/images/brand-julibee.png">
+		<img src="assets/images/brand-triton.png">
+		<img src="assets/images/brand-pandora.png">
+	</div>
+	<footer>
+		<div class="contentBx">
+			<div class="row1">
+				<img src="assets/images/bonfire-logo.png" class="logo">
+				<div class="menu">
+					<ul>
+						<li>home</li>
+						<li>about</li>
+						<li>service</li>
+						<li>portfolio</li>
+						<li>pages</li>
+						<li>contact</li>
+					</ul>
+				</div>
+				<a href="#">subcribe <img src="assets/images/icon-subcribe.png"></a>
+			</div>
+			<div class="row2">
+				<div id="copyright">14 L.E Goulburn St, Sydney 2000NSW  -  (088) 1990 6886<br>
+				Copyright © 2016 Bonfire</div>
+				<div class="social-icon">
+					<img src="assets/images/icon-fb.png">
+					<img src="assets/images/icon-twitter.png">
+					<img src="assets/images/icon-youtube.png">
+					<img src="assets/images/icon-skype.png">
+				</div>	
+			</div>	
+		</div>
+	</footer>
+	<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+</body>
+</html>
