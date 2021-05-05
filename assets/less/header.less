@@ -1,3 +1,4 @@
+@import "responsive.less";
 header {
     position: absolute;
     top: 0;
@@ -86,11 +87,10 @@ header {
 }
 
 .banner {
-    padding-left: 15px;
     position: relative;
     width: 100%;
     display: flex;
-    background-image: url(common/configskin/bg-header.png);
+    background-image: url("common/configskin/bg-header.png");
     background-size: cover;
     background-repeat: no-repeat;
     .contentBx {
@@ -98,9 +98,9 @@ header {
         margin-top: 50px;
         h3 {
             width: 80%;
-            font-size: 100px;
-            letter-spacing: 30px;
-            line-height: 100px;
+            font-size: 75px;
+            letter-spacing: 20px;
+            line-height: 75px;
             color: #333333;
             font-weight: 600;
             font-style: italic;
@@ -135,11 +135,11 @@ header {
     }
     .socialBx {
         .blank;
-        padding-top: 420px; 
+        padding-top: 200px; 
         .social {
             list-style: none;
             text-align: right; 
-            padding-bottom: 420px;
+            padding-bottom: 300px;
             a {
                 text-decoration: none;
                 color: @bright;       
@@ -162,7 +162,7 @@ header {
     width: 61%;
     display: flex;
     .service {
-        margin: 20px 90px;
+        margin: 10px 20px;
         width: 40%;
         text-align: center;
         h4 {
